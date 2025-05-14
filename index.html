@@ -1,3 +1,6 @@
+id: complete_website
+type: html
+content: |-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,11 +15,11 @@
             padding: 0;
             height: 100%;
             width: 100%;
-            background-color: #121212; /* Dark Background */
-            color: #ffcc00; /* Yellow Text */
+            background-color: #121212;
+            color: #ffcc00;
         }
         .dark-card {
-            background-color: #1f1f1f; /* Dark Card Background */
+            background-color: #1f1f1f;
             border-color: #3a3a3a;
         }
         .dark-card:hover {
@@ -24,21 +27,21 @@
         }
         .owner-image {
             border-radius: 50%;
-            border: 4px solid #ffcc00; /* Yellow Border */
+            border: 4px solid #ffcc00;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
         }
         a {
-            color: #ffcc00; /* Yellow Links */
+            color: #ffcc00;
         }
         a:hover {
-            color: #e6b800; /* Darker Yellow on Hover */
+            color: #e6b800;
         }
         .btn {
-            background-color: #ffcc00; /* Yellow Button */
-            color: #121212; /* Dark Text */
+            background-color: #ffcc00;
+            color: #121212;
         }
         .btn:hover {
-            background-color: #e6b800; /* Darker Yellow Button */
+            background-color: #e6b800;
         }
     </style>
 </head>
@@ -57,7 +60,7 @@
                     <a href="#" class="text-gray-300 hover:text-yellow-400 transition">Home</a>
                     <a href="#" class="text-yellow-400 font-medium">About Us</a>
                     <a href="#" class="text-gray-300 hover:text-yellow-400 transition">Services</a>
-                    <a href="#" class="text-gray-300 hover:text-yellow-400 transition">Pricing</a>
+                    <a href="#pricing" class="text-gray-300 hover:text-yellow-400 transition">Pricing</a>
                     <a href="#contact" class="text-gray-300 hover:text-yellow-400 transition">Contact</a>
                 </div>
                 <div class="md:hidden">
@@ -72,7 +75,7 @@
                     <a href="#" class="block px-3 py-2 text-gray-300 hover:text-yellow-400 hover:bg-gray-800 rounded-md">Home</a>
                     <a href="#" class="block px-3 py-2 text-yellow-400 bg-gray-800 rounded-md">About Us</a>
                     <a href="#" class="block px-3 py-2 text-gray-300 hover:text-yellow-400 hover:bg-gray-800 rounded-md">Services</a>
-                    <a href="#" class="block px-3 py-2 text-gray-300 hover:text-yellow-400 hover:bg-gray-800 rounded-md">Pricing</a>
+                    <a href="#pricing" class="block px-3 py-2 text-gray-300 hover:text-yellow-400 hover:bg-gray-800 rounded-md">Pricing</a>
                     <a href="#contact" class="block px-3 py-2 text-gray-300 hover:text-yellow-400 hover:bg-gray-800 rounded-md">Contact</a>
                 </div>
             </div>
@@ -132,6 +135,76 @@
                         <p class="text-yellow-500 font-medium">Direct communication</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="py-16 bg-black text-yellow-500" id="pricing">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Our <span class="text-yellow-400">Pricing</span></h2>
+                <p class="text-gray-300 max-w-2xl mx-auto text-lg">
+                    Affordable and transparent pricing for all your bin cleaning needs
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Residential Card -->
+                <div class="dark-card rounded-xl p-8 border border-gray-700 hover:transform hover:scale-105 transition duration-300">
+                    <div class="text-center">
+                        <div class="bg-yellow-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <i class="fas fa-home text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4">Residential</h3>
+                        <div class="text-4xl font-bold mb-2">$25</div>
+                        <p class="text-gray-400 mb-6">Starting price</p>
+                        <p class="text-gray-300 mb-4">$8-15 per additional bin</p>
+                        <a href="#contact" class="btn block w-full text-center py-3 rounded-lg font-bold transition duration-300">
+                            Get Started
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Retail Card -->
+                <div class="dark-card rounded-xl p-8 border border-gray-700 hover:transform hover:scale-105 transition duration-300">
+                    <div class="text-center">
+                        <div class="bg-yellow-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <i class="fas fa-store text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4">Retail</h3>
+                        <div class="text-4xl font-bold mb-2">$25</div>
+                        <p class="text-gray-400 mb-6">Starting price</p>
+                        <p class="text-gray-300 mb-4">$8-15 per additional bin</p>
+                        <a href="#contact" class="btn block w-full text-center py-3 rounded-lg font-bold transition duration-300">
+                            Get Started
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Office Card -->
+                <div class="dark-card rounded-xl p-8 border border-gray-700 hover:transform hover:scale-105 transition duration-300">
+                    <div class="text-center">
+                        <div class="bg-yellow-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <i class="fas fa-building text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4">Office</h3>
+                        <div class="text-4xl font-bold mb-2">$25</div>
+                        <p class="text-gray-400 mb-6">Starting price</p>
+                        <p class="text-gray-300 mb-4">$8-15 per additional bin</p>
+                        <a href="#contact" class="btn block w-full text-center py-3 rounded-lg font-bold transition duration-300">
+                            Get Started
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Restaurant Note -->
+            <div class="mt-12 text-center">
+                <p class="text-gray-300 text-lg">
+                    <i class="fas fa-info-circle text-yellow-400 mr-2"></i>
+                    For restaurant pricing, please contact us directly for a custom quote tailored to your needs.
+                </p>
             </div>
         </div>
     </section>
