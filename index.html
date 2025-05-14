@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MT Bins | Professional Bin Cleaning Services</title>
+    <title>Our Services - MT Bins</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -22,11 +22,6 @@
         .dark-card:hover {
             background-color: #3a3a3a;
         }
-        .owner-image {
-            border-radius: 50%;
-            border: 4px solid #ffcc00; /* Yellow Border */
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
-        }
         a {
             color: #ffcc00; /* Yellow Links */
         }
@@ -44,21 +39,21 @@
 </head>
 <body class="font-sans">
     <!-- Navigation -->
-    <nav class="bg-black shadow-lg border-b border-gray-800 sticky top-0 z-50">
+    <header class="bg-black shadow-lg border-b border-gray-800 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex justify-between items-center py-4">
                 <div class="flex items-center space-x-4">
                     <div class="flex items-center">
-                        <i class="fas fa-trash-alt text-yellow-500 text-2xl mr-2"></i>
+                        <img src="https://scontent.fcps3-1.fna.fbcdn.net/v/t39.30808-6/481081996_122100561266782153_3283749214167461995_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=lZu8k4wCgRUQ7kNvwFeYLj4&_nc_oc=AdnofhS7SoZpNXLCkVO5U1xG-sHOGSG6ZSwk76REOFW4JtJA65RG0dPuMCd5XxU29QjCqnUuPEIr-RnKlvnGLPTU&_nc_zt=23&_nc_ht=scontent.fcps3-1.fna&_nc_gid=hb0dtOo7DfdzT9uosyf42g&oh=00_AfK1PtZw4CG3BO71gsi657LHLwjtslMts1KV0CwMG70zww&oe=682AEC1F"
+                             alt="MT Bins Logo"
+                             class="w-12 h-12 rounded-full mr-2">
                         <span class="font-bold text-xl text-yellow-500">MT Bins</span>
                     </div>
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="#" class="text-gray-300 hover:text-yellow-400 transition">Home</a>
-                    <a href="#" class="text-yellow-400 font-medium">About Us</a>
-                    <a href="#" class="text-gray-300 hover:text-yellow-400 transition">Services</a>
-                    <a href="#" class="text-gray-300 hover:text-yellow-400 transition">Pricing</a>
-                    <a href="#contact" class="text-gray-300 hover:text-yellow-400 transition">Contact</a>
+                    <a href="index.html" class="text-gray-300 hover:text-yellow-400 transition">Home</a>
+                    <a href="services.html" class="text-yellow-400 font-medium">Services</a>
+                    <a href="contact.html" class="text-gray-300 hover:text-yellow-400 transition">Contact</a>
                 </div>
                 <div class="md:hidden">
                     <button class="text-gray-300 focus:outline-none" id="mobile-menu-button">
@@ -69,141 +64,76 @@
             <!-- Mobile menu -->
             <div class="md:hidden hidden" id="mobile-menu">
                 <div class="pt-2 pb-4 space-y-1">
-                    <a href="#" class="block px-3 py-2 text-gray-300 hover:text-yellow-400 hover:bg-gray-800 rounded-md">Home</a>
-                    <a href="#" class="block px-3 py-2 text-yellow-400 bg-gray-800 rounded-md">About Us</a>
-                    <a href="#" class="block px-3 py-2 text-gray-300 hover:text-yellow-400 hover:bg-gray-800 rounded-md">Services</a>
-                    <a href="#" class="block px-3 py-2 text-gray-300 hover:text-yellow-400 hover:bg-gray-800 rounded-md">Pricing</a>
-                    <a href="#contact" class="block px-3 py-2 text-gray-300 hover:text-yellow-400 hover:bg-gray-800 rounded-md">Contact</a>
+                    <a href="index.html" class="block px-3 py-2 text-gray-300 hover:text-yellow-400 hover:bg-gray-800 rounded-md">Home</a>
+                    <a href="services.html" class="block px-3 py-2 text-yellow-400 bg-gray-800 rounded-md">Services</a>
+                    <a href="contact.html" class="block px-3 py-2 text-gray-300 hover:text-yellow-400 hover:bg-gray-800 rounded-md">Contact</a>
                 </div>
             </div>
         </div>
-    </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section class="bg-black text-yellow-500 py-20">
-        <div class="max-w-6xl mx-auto px-4 text-center">
-            <h1 class="text-4xl md:text-5xl font-bold mb-6">About <span class="text-yellow-400">MT Bins</span></h1>
-            <p class="text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed">
-                Professional bin cleaning services to keep your environment clean and healthy.
-            </p>
-            <div class="mt-8">
-                <a href="#contact" class="btn font-bold py-3 px-8 rounded-full transition duration-300 shadow-lg inline-block">
-                    Get in Touch
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Owner Section -->
-    <section class="py-16 bg-black">
+    <!-- Services Section -->
+    <main class="py-16 bg-black">
         <div class="max-w-6xl mx-auto px-4">
-            <div class="flex flex-col md:flex-row items-center">
-                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10 flex justify-center">
-                    <div class="relative">
-                        <img src="https://scontent.fcps3-1.fna.fbcdn.net/v/t39.30808-6/481081996_122100561266782153_3283749214167461995_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=lZu8k4wCgRUQ7kNvwFeYLj4&_nc_oc=AdnofhS7SoZpNXLCkVO5U1xG-sHOGSG6ZSwk76REOFW4JtJA65RG0dPuMCd5XxU29QjCqnUuPEIr-RnKlvnGLPTU&_nc_zt=23&_nc_ht=scontent.fcps3-1.fna&_nc_gid=hb0dtOo7DfdzT9uosyf42g&oh=00_AfK1PtZw4CG3BO71gsi657LHLwjtslMts1KV0CwMG70zww&oe=682AEC1F"
-                             alt="MT Bins Owner"
-                             class="owner-image w-64 h-64 object-cover">
-                    </div>
-                </div>
-                <div class="md:w-1/2">
-                    <h2 class="text-3xl font-bold text-yellow-500 mb-6">Meet the <span class="text-yellow-400">Owner</span></h2>
-                    <p class="text-gray-300 mb-6 text-lg leading-relaxed">
-                        Hi, I'm Marc Tuinier, the proud owner and operator of MT Bins. What started as a simple idea to help keep our community clean has grown into a trusted service that hundreds of customers rely on.
-                    </p>
-                    <p class="text-gray-300 mb-6 text-lg leading-relaxed">
-                        I personally handle every aspect of the business because I believe in delivering the highest quality service possible. When you call MT Bins, you're dealing directly with me - no middlemen, no corporate bureaucracy.
-                    </p>
-                    <div class="flex items-center mt-8">
-                        <div class="bg-yellow-700 p-3 rounded-full mr-4">
-                            <i class="fas fa-check-circle text-yellow-400 text-xl"></i>
-                        </div>
-                        <p class="text-yellow-500 font-medium">Hands-on owner operator</p>
-                    </div>
-                    <div class="flex items-center mt-4">
-                        <div class="bg-yellow-700 p-3 rounded-full mr-4">
-                            <i class="fas fa-check-circle text-yellow-400 text-xl"></i>
-                        </div>
-                        <p class="text-yellow-500 font-medium">Personalized service</p>
-                    </div>
-                    <div class="flex items-center mt-4">
-                        <div class="bg-yellow-700 p-3 rounded-full mr-4">
-                            <i class="fas fa-check-circle text-yellow-400 text-xl"></i>
-                        </div>
-                        <p class="text-yellow-500 font-medium">Direct communication</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="py-16 bg-black text-yellow-500" id="contact">
-        <div class="max-w-6xl mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold mb-4">Contact <span class="text-yellow-400">Us</span></h2>
-                <p class="text-gray-300 max-w-2xl mx-auto text-lg">
-                    Have questions or ready to schedule a cleaning? I'm here to help!
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold text-yellow-500 mb-4">Our <span class="text-yellow-400">Services</span></h1>
+                <p class="text-gray-300 text-lg max-w-3xl mx-auto">
+                    At MT Bins, we provide professional bin cleaning services tailored to your needs. Whether you need weekly, monthly, or individual cleanings, we've got you covered!
                 </p>
             </div>
-            
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                <!-- Contact Info -->
-                <div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-                        <!-- Phone -->
-                        <div class="dark-card rounded-lg p-6 hover:bg-gray-700 transition duration-300 border border-gray-700">
-                            <div class="bg-yellow-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                                <i class="fas fa-phone-alt text-white text-2xl"></i>
-                            </div>
-                            <h3 class="text-xl font-bold mb-2 text-yellow-500">Call Us</h3>
-                            <p class="text-gray-300 mb-2">Available 8am-6pm, Mon-Sat</p>
-                            <a href="tel:269-588-0760" class="text-yellow-400 hover:text-yellow-300 text-lg font-medium">269-588-0760</a>
-                        </div>
-                        
-                        <!-- Email -->
-                        <div class="dark-card rounded-lg p-6 hover:bg-gray-700 transition duration-300 border border-gray-700">
-                            <div class="bg-yellow-700 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                                <i class="fas fa-envelope text-white text-2xl"></i>
-                            </div>
-                            <h3 class="text-xl font-bold mb-2 text-yellow-500">Email Us</h3>
-                            <p class="text-gray-300 mb-2">I typically respond within 24 hours</p>
-                            <a href="mailto:mt.bins.cleaning@gmail.com" class="text-yellow-400 hover:text-yellow-300 text-lg font-medium">mt.bins.cleaning@gmail.com</a>
-                        </div>
-                    </div>
-                    
-                    <!-- Social -->
-                    <div class="dark-card rounded-lg p-8 hover:bg-gray-700 transition duration-300 border border-gray-700">
-                        <h3 class="text-xl font-bold mb-6 text-yellow-500 text-center">Follow Us</h3>
-                        <p class="text-gray-300 mb-6 text-center">Connect with me on Facebook</p>
-                        <div class="flex justify-center">
-                            <a href="https://www.facebook.com/profile.php?id=61573464606873" target="_blank" class="bg-gray-700 hover:bg-yellow-500 w-12 h-12 rounded-full flex items-center justify-center transition duration-300">
-                                <i class="fab fa-facebook-f text-xl"></i>
-                            </a>
-                        </div>
-                    </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Weekly Service -->
+                <div class="dark-card rounded-lg p-6 hover:bg-gray-700 transition duration-300 border border-gray-700 text-center">
+                    <i class="fas fa-calendar-week text-yellow-400 text-4xl mb-4"></i>
+                    <h2 class="text-xl font-bold text-yellow-500 mb-2">Weekly Service</h2>
+                    <p class="text-gray-300 mb-4">
+                        Keep your bins clean and fresh with our weekly cleaning service. Perfect for busy households and businesses.
+                    </p>
+                    <a href="#contact" class="btn font-bold py-2 px-4 rounded-full transition duration-300 inline-block">
+                        Learn More
+                    </a>
                 </div>
-                
-                <!-- Contact Form -->
-                <div class="dark-card rounded-xl shadow-md p-8 border border-gray-700">
-                    <h3 class="text-xl font-bold mb-6 text-yellow-500">Send Me a Message</h3>
-                    <a href="https://www.facebook.com/profile.php?id=61573464606873" target="_blank" class="w-full bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-3 px-4 rounded-lg transition duration-300 text-center block">
-                        Message
+
+                <!-- Monthly Service -->
+                <div class="dark-card rounded-lg p-6 hover:bg-gray-700 transition duration-300 border border-gray-700 text-center">
+                    <i class="fas fa-calendar-alt text-yellow-400 text-4xl mb-4"></i>
+                    <h2 class="text-xl font-bold text-yellow-500 mb-2">Monthly Service</h2>
+                    <p class="text-gray-300 mb-4">
+                        Ideal for maintaining cleanliness without frequent cleaning. Affordable and efficient for any household.
+                    </p>
+                    <a href="#contact" class="btn font-bold py-2 px-4 rounded-full transition duration-300 inline-block">
+                        Learn More
+                    </a>
+                </div>
+
+                <!-- Individual Service -->
+                <div class="dark-card rounded-lg p-6 hover:bg-gray-700 transition duration-300 border border-gray-700 text-center">
+                    <i class="fas fa-trash-alt text-yellow-400 text-4xl mb-4"></i>
+                    <h2 class="text-xl font-bold text-yellow-500 mb-2">Individual Service</h2>
+                    <p class="text-gray-300 mb-4">
+                        Need a one-time cleaning? Our individual service is perfect for special occasions or emergencies.
+                    </p>
+                    <a href="#contact" class="btn font-bold py-2 px-4 rounded-full transition duration-300 inline-block">
+                        Learn More
                     </a>
                 </div>
             </div>
         </div>
-    </section>
+    </main>
 
     <!-- Footer -->
     <footer class="bg-black text-yellow-500 py-8 border-t border-gray-800">
         <div class="max-w-6xl mx-auto px-4">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="flex items-center mb-4 md:mb-0">
-                    <i class="fas fa-trash-alt text-yellow-400 text-2xl mr-2"></i>
+                    <img src="https://scontent.fcps3-1.fna.fbcdn.net/v/t39.30808-6/481081996_122100561266782153_3283749214167461995_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=lZu8k4wCgRUQ7kNvwFeYLj4&_nc_oc=AdnofhS7SoZpNXLCkVO5U1xG-sHOGSG6ZSwk76REOFW4JtJA65RG0dPuMCd5XxU29QjCqnUuPEIr-RnKlvnGLPTU&_nc_zt=23&_nc_ht=scontent.fcps3-1.fna&_nc_gid=hb0dtOo7DfdzT9uosyf42g&oh=00_AfK1PtZw4CG3BO71gsi657LHLwjtslMts1KV0CwMG70zww&oe=682AEC1F"
+                         alt="MT Bins Logo"
+                         class="w-12 h-12 rounded-full mr-2">
                     <span class="font-bold text-xl text-yellow-500">MT Bins</span>
                 </div>
                 <div class="text-gray-500 text-sm mb-4 md:mb-0">
-                    &copy; 2023 MT Bins Cleaning Services. All rights reserved.
+                    &copy; 2025 MT Bins Cleaning Services. All rights reserved.
                 </div>
                 <div class="flex space-x-6">
                     <a href="#" class="text-gray-500 hover:text-yellow-400 transition">Privacy Policy</a>
@@ -222,16 +152,6 @@
             
             mobileMenuButton.addEventListener('click', function() {
                 mobileMenu.classList.toggle('hidden');
-            });
-            
-            // Smooth scrolling for anchor links
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    document.querySelector(this.getAttribute('href')).scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                });
             });
         });
     </script>
