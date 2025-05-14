@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - MT Bins</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #121212; /* Dark Background */
+            color: #ffcc00; /* Yellow Text */
+        }
+        .dark-card {
+            background-color: #1f1f1f; /* Dark Card Background */
+            border-color: #3a3a3a;
+        }
+        .dark-card:hover {
+            background-color: #3a3a3a;
+        }
+        a {
+            color: #ffcc00; /* Yellow Links */
+        }
+        a:hover {
+            color: #e6b800; /* Darker Yellow on Hover */
+        }
+        .btn {
+            background-color: #ffcc00; /* Yellow Button */
+            color: #121212; /* Dark Text */
+        }
+        .btn:hover {
+            background-color: #e6b800; /* Darker Yellow Button */
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <!-- Navigation -->
+    <header class="bg-black shadow-lg border-b border-gray-800 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-4">
+                    <div class="flex items-center">
+                        <img src="https://scontent.fcps3-1.fna.fbcdn.net/v/t39.30808-6/481081996_122100561266782153_3283749214167461995_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=lZu8k4wCgRUQ7kNvwFeYLj4&_nc_oc=AdnofhS7SoZpNXLCkVO5U1xG-sHOGSG6ZSwk76REOFW4JtJA65RG0dPuMCd5XxU29QjCqnUuPEIr-RnKlvnGLPTU&_nc_zt=23&_nc_ht=scontent.fcps3-1.fna&_nc_gid=hb0dtOo7DfdzT9uosyf42g&oh=00_AfK1PtZw4CG3BO71gsi657LHLwjtslMts1KV0CwMG70zww&oe=682AEC1F"
+                             alt="MT Bins Logo"
+                             class="w-12 h-12 rounded-full mr-2">
+                        <span class="font-bold text-xl text-yellow-500">MT Bins</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-300 hover:text-yellow-400 transition">Home</a>
+                    <a href="services.html" class="text-yellow-400 font-medium">Services</a>
+                    <a href="contact.html" class="text-gray-300 hover:text-yellow-400 transition">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-300 focus:outline-none" id="mobile-menu-button">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile menu -->
+            <div class="md:hidden hidden" id="mobile-menu">
+                <div class="pt-2 pb-4 space-y-1">
+                    <a href="index.html" class="block px-3 py-2 text-gray-300 hover:text-yellow-400 hover:bg-gray-800 rounded-md">Home</a>
+                    <a href="services.html" class="block px-3 py-2 text-yellow-400 bg-gray-800 rounded-md">Services</a>
+                    <a href="contact.html" class="block px-3 py-2 text-gray-300 hover:text-yellow-400 hover:bg-gray-800 rounded-md">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <main class="py-16 bg-black">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold text-yellow-500 mb-4">Our <span class="text-yellow-400">Services</span></h1>
+                <p class="text-gray-300 text-lg max-w-3xl mx-auto">
+                    At MT Bins, we provide professional bin cleaning services tailored to your needs. Whether you need weekly, monthly, or individual cleanings, we've got you covered!
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Weekly Service -->
+                <div class="dark-card rounded-lg p-6 hover:bg-gray-700 transition duration-300 border border-gray-700 text-center">
+                    <i class="fas fa-calendar-week text-yellow-400 text-4xl mb-4"></i>
+                    <h2 class="text-xl font-bold text-yellow-500 mb-2">Weekly Service</h2>
+                    <p class="text-gray-300 mb-4">
+                        Keep your bins clean and fresh with our weekly cleaning service. Perfect for busy households and businesses.
+                    </p>
+                    <a href="#contact" class="btn font-bold py-2 px-4 rounded-full transition duration-300 inline-block">
+                        Learn More
+                    </a>
+                </div>
+
+                <!-- Monthly Service -->
+                <div class="dark-card rounded-lg p-6 hover:bg-gray-700 transition duration-300 border border-gray-700 text-center">
+                    <i class="fas fa-calendar-alt text-yellow-400 text-4xl mb-4"></i>
+                    <h2 class="text-xl font-bold text-yellow-500 mb-2">Monthly Service</h2>
+                    <p class="text-gray-300 mb-4">
+                        Ideal for maintaining cleanliness without frequent cleaning. Affordable and efficient for any household.
+                    </p>
+                    <a href="#contact" class="btn font-bold py-2 px-4 rounded-full transition duration-300 inline-block">
+                        Learn More
+                    </a>
+                </div>
+
+                <!-- Individual Service -->
+                <div class="dark-card rounded-lg p-6 hover:bg-gray-700 transition duration-300 border border-gray-700 text-center">
+                    <i class="fas fa-trash-alt text-yellow-400 text-4xl mb-4"></i>
+                    <h2 class="text-xl font-bold text-yellow-500 mb-2">Individual Service</h2>
+                    <p class="text-gray-300 mb-4">
+                        Need a one-time cleaning? Our individual service is perfect for special occasions or emergencies.
+                    </p>
+                    <a href="#contact" class="btn font-bold py-2 px-4 rounded-full transition duration-300 inline-block">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black text-yellow-500 py-8 border-t border-gray-800">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <img src="https://scontent.fcps3-1.fna.fbcdn.net/v/t39.30808-6/481081996_122100561266782153_3283749214167461995_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=lZu8k4wCgRUQ7kNvwFeYLj4&_nc_oc=AdnofhS7SoZpNXLCkVO5U1xG-sHOGSG6ZSwk76REOFW4JtJA65RG0dPuMCd5XxU29QjCqnUuPEIr-RnKlvnGLPTU&_nc_zt=23&_nc_ht=scontent.fcps3-1.fna&_nc_gid=hb0dtOo7DfdzT9uosyf42g&oh=00_AfK1PtZw4CG3BO71gsi657LHLwjtslMts1KV0CwMG70zww&oe=682AEC1F"
+                         alt="MT Bins Logo"
+                         class="w-12 h-12 rounded-full mr-2">
+                    <span class="font-bold text-xl text-yellow-500">MT Bins</span>
+                </div>
+                <div class="text-gray-500 text-sm mb-4 md:mb-0">
+                    &copy; 2025 MT Bins Cleaning Services. All rights reserved.
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-500 hover:text-yellow-400 transition">Privacy Policy</a>
+                    <a href="#" class="text-gray-500 hover:text-yellow-400 transition">Terms of Service</a>
+                    <a href="#" class="text-gray-500 hover:text-yellow-400 transition">FAQ</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            mobileMenuButton.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
